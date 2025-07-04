@@ -1,80 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sport Complexes</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-    <div class="wrapper">
-        <header class ="container header">
-            <div class ="container header_container">
-                <nav id ="nav-links" class="header__nav">
-                    <ul>
-                        <li class="header__nav-item">
-                            <a class="header__nav-link-main" href="#">Sport complexes</a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-link" href="create_page.html">Add complexes
-                            </a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-link" href="edit_page.html">Edit complexes
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-        </header>
-
-        <section class="container manager">
-            <div class =" options">
-                <p class="Title">
-                    Manage sport complexes
-                </p>
-                <div class="counter">
-                    <p class="title">
-                        Count total attendance
-                    </p>
-                    <button class="count_button" id="count">
-                        Count
-                    </button>
-                    <div class="counter_result">
-                        Total attendance: <span id="totalAttendance">0</span>
-                    </div>
-                </div>
-                <form class = "finder">
-                    <input type="text" id="find_input" class="form-control" placeholder="Enter name of complex">
-                    <button id="find_button">
-                        Find
-                    </button>
-
-                    <div id="result"></div>
-                </form>
-                <div class="sort_cont">
-                    <ul class = sort> Sort complex by: 
-                        <li class="sort_li"><button id="capacity__des">Capacity (descending)</button></li>
-                        <li class="sort_li"><button id="capacity__asc">Capacity (ascending)</button></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="complex-list">
-                <h3>Sport Complexs list</h3>
-                <div class=" complexs_selec">
-                    
-                </div>
-            </div>
-            
-        </section>
-    </div>
-    <script type="module" src="main.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+  </body>
 </html>
