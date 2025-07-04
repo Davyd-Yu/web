@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edit-page</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class ="container header">
+            <div class ="container header_container">
+                <nav id ="nav-links" class="header__nav">
+                    <ul>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link-main" href="index.html">Sport complexs</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="create_page.html">Add complexs</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#">Edit complexs
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="container_edit">
+            <div class="edit">
+                <div class="text">
+                    <h2>Edit sport complex</h2>
+                </div>
+                <h3>Which sport complex do you want to edit?</h3>
+                <form class="choose_complex">
+                    <input type="text" placeholder="Enter a complex" id="complex_to_edit">
+                    <input type="submit" value="Submit choise">
+                </form>
+
+                <form class="editing_form">
+                    <label class="text_title">
+                        Name
+                    </label>
+                    <input id="name_input_edit" type="text" class="form-control" placeholder="Enter name">
+
+                    <label class="text_title">
+                        Capacity
+                    </label>
+                    <input id="capacity_input_edit" type="number" class="form-control" placeholder="Enter capacity">
+
+                    <label class="text_title">
+                        Current attendance
+                    </label>
+                    <input id="attendance_input_edit" type="number" class="form-control" placeholder="Enter attendance">
+
+                    <label class="text_title">
+                        Cost of ticket
+                    </label>
+                    <input id="cost_input_edit" type="number" class="form-control" placeholder="Enter cost">
+
+                    <input type="submit" value="Save">
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <script type="module" src="edit.js"></script>
+
+</body>
+</html>
