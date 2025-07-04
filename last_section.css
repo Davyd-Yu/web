@@ -1,0 +1,157 @@
+.last_section{
+    margin-top:143px;
+    width: 100%;
+    height: 768px;
+    background-color:#F3F8FE;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width:320px){
+    .last_section{
+        height: 1000px;
+    }
+}
+
+.bg_rew{
+    margin-top: 140px;
+    width: 1120px;
+    height: 425px;
+    background:linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 35px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:1120px){
+    .bg_rew{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .bg_rew{
+        border-radius: 0%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .bg_rew{
+        height: 1000px;
+        margin: auto;
+    }
+}
+
+.title_3{
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.underscore_3{
+    width: 56px;
+    height: 2px;
+    background-color: #ffffff;
+    display: flex;
+    align-self: center;
+}
+
+.rew_container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 320px) {
+    .rew_container{
+        flex-direction: column;
+    }
+}
+
+.container_about_person{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:768px) {
+    .container_about_person{
+        flex-direction: column;
+    }
+}
+
+.photo_of_person{
+    align-self: center;
+}
+
+.name_container{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    align-self: center;
+}
+.name{
+    font-size: 18.72px;
+}
+.description2{
+    margin-top: 12.82px;
+    color: #FFFFFFD9;
+}
+
+#second_image{
+    width: 133px;
+    height: 133px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+}
+
+.rew_text{
+    font-size: 20px;
+    width: 390.592px;
+    height: 108.297px;
+    line-height: 25px;
+    color: #FFFFFFE5;
+    text-align:justify;
+}
+
+@media screen and (max-width:320px) {
+    .rew_text{
+        width: 90%;
+        height: 157px;
+        text-align: center;
+        margin-left: 15px;
+    }
+}
+
+.nav_page{
+    margin-top: 42px;
+    display: flex;
+    padding-bottom:146px ;
+}
+
+.arrow_left{
+    opacity: 0.4;
+}
+
+.arrow_nav{
+    cursor: pointer;
+}
+
+.circles_cont{
+    padding-left: 85.57px;
+    padding-right: 67.57px;
+    display: flex;
+}
+
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:#5B9BF3;
+    margin-right: 18px;
+}
+
+.no-act_circle{
+    opacity: 30%;
+}

@@ -1,0 +1,144 @@
+.hero_our_app{
+    padding-top: 175.63px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 1601px) { 
+    .hero_our_app{
+        justify-content: space-evenly;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .hero_our_app{
+        background-image: url(../images/vec-1.svg);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+    
+}
+
+@media screen and (max-width:320px) {
+    .hero_our_app{
+        background: white;
+        justify-content:center;
+    }
+}
+
+.text{
+    margin-left: 191px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 47.5px;
+}
+
+@media screen and (max-width: 768px){
+    .text{
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 320px){
+    
+    
+}
+
+.title_1{
+    width: 241.661px;
+    height: 82.272px;
+}
+
+@media screen and (max-width:768px) {
+    .title_1{
+        padding: 5px;
+        background-color: white;
+        border-radius: 20px;
+        width: 100%;
+        opacity: 85%;
+        margin-bottom: 10px;
+    }
+
+}
+
+.underscore_1{
+    width: 56px;
+    height: 2px;
+    background-color: #000;
+}
+
+@media screen and (max-width:768px) {
+    .underscore_1{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 38px;
+    }
+}
+
+.description{
+    width: 360.139px;
+    height: 107.334px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+@media screen and (max-width: 768px) {
+    .description{
+        padding: 5px;
+        background-color: white;
+        opacity: 0.85;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .description{
+        width: 100%;
+        animation-duration: 3s;
+        animation-name: slidein;
+    }
+}
+
+.images_hero{
+    display: flex;
+}
+
+#first_image{
+    width: 665px;
+    height: 434px;
+}
+@media screen  and (max-width: 768px){
+    #first_image{
+        display: none;
+    } 
+}
+
+#download{
+    margin-top: 43.91px;
+}
+
+
+.arrow{
+    padding-left: 15px;
+    width: 15.43px;
+    height: 16.82px; 
+}
+
+.element_vector_top{
+    width: 131.581px;
+    height: 115px;
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+    .element_vector_top{
+        display:none;
+    }
+}

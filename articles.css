@@ -1,0 +1,138 @@
+.arcticles{
+    margin-top:170px;
+    background: 
+        url(../images/Vector_figure_bg.png) no-repeat right center,
+        url(../images/element.svg) no-repeat 170px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (min-width:1601) {
+    .arcticle{
+        background: 
+        url(../images/Vector_figure_bg.png) no-repeat right center,
+    }
+}
+
+@media screen and (max-width:320px) {
+    .arcticles{
+        background: white;
+    }
+}
+
+.title_2{
+    margin-bottom: 39.68px;
+}
+
+.title_2_container{
+    display: flex;
+    justify-content: center;
+}
+
+.underscore_2{
+    width: 56px;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 72px;
+}
+
+.arcticles_container{
+    display: flex;
+}
+
+@media screen and (max-width:768px) {
+    .arcticles_container{
+        flex-direction: column;
+    }
+    
+}
+
+.arcticle{
+    width: 350px;
+    height: 512px;
+    background-color: #ffffff; 
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 20px 9px #F3F8FE;
+    margin-right: 34px;
+}
+
+@media screen and (max-width:768px){
+    .arcticle{
+        margin-right:auto;
+        margin-bottom:34px
+    }
+}
+
+.arcticle-img-top{
+    width: 350px;
+    height: 240px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.arcticle-body{
+    margin-top: 29.4px;
+}
+
+.arcticle-title{
+    line-height: 30px;
+    margin-bottom: 23px;
+}
+
+.AT-1{
+    width: 244.147px;
+    height: 52.244px;
+}
+
+.AT-2{
+    width: 256.93px;
+    height: 51.992px;
+}
+
+.AT-3{
+    width: 239.059px;
+    height: 47.729px;
+}
+
+.arcticle-text{
+    line-height: 25px;
+    color: #7D7987;
+}
+
+.arcticle-1{
+    width: 241.485px;
+    height: 67.952px;
+    margin-bottom: 40.38px;
+}
+
+.arcticle-2{
+    width: 260.422px;
+    height: 71.408px;
+    margin-bottom: 36.83px;
+}
+
+.arcticle-3{
+    width: 255.791px;
+    height: 67.952px;
+    margin-bottom: 40.38px;
+}
+
+#view_all{
+    margin-top: 72px;
+}
+
+.read{
+    color: #4089ED;
+    width: 84.736px;
+    height: 12.631px;
+}
+
+.arrow_right{
+    width: 14.14px;
+    height: 9px;
+    margin-left: 15.42px;
+}
