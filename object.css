@@ -1,0 +1,16 @@
+.complex_container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6px;
+    border-radius: 2px;
+    border: 2px solid #d07f7f;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row; 
+}
+
+.selected {
+    background-color: yellow;
+}
